@@ -38,10 +38,6 @@
             get { return PerimeterCalculator(side1, side2); }
         }
 
-        public Rectangle()
-        {
-        }
-
         public Rectangle(double side1, double side2)
         {
             this.side1 = side1;
