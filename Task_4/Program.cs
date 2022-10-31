@@ -6,7 +6,7 @@
         int amountOfPoints = int.Parse(Console.ReadLine());
         Figure figure = new Figure(amountOfPoints);
         double perimeter =  figure.PerimeterCalculator();
-        Console.WriteLine($"Perimeter of our figure equals {perimeter} and has a name {figure.NameOfFigure}");
+        Console.WriteLine($"Our figure's perimeter equals {perimeter} and has a name {figure.NameOfFigure}");
 
     }
 
